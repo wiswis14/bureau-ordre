@@ -1,0 +1,33 @@
+# Fichiers Python
+*.pyc
+__pycache__/
+
+# Environnement virtuel
+env/
+
+# Paramètres locaux
+*.log
+.env
+
+# Fichiers de base de données (si SQLite utilisé pour dev/test)
+*.sqlite3
+
+# Médias (PDFs, QR, etc.)
+/media/
+/staticfiles/
+
+# Cache Django
+*.pot
+*.mo
+
+# VS Code
+.vscode/
+
+# Docker
+*.pid
+*.db
+
+# Coverage / tests
+htmlcov/
+.coverage
+.tox/
